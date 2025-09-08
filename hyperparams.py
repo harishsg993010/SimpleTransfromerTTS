@@ -1,12 +1,12 @@
 class Hyperparams:
   seed = 42
 
-  csv_path = "/content/metadata.csv"
+  csv_path = "/content/LJSpeech-1.1/metadata.csv"
   wav_path = "/content/LJSpeech-1.1/wavs"
-  save_path = "/content/gdrive/MyDrive/Colab Notebooks/toy_tts/params"  
-  log_path = "/content/gdrive/MyDrive/Colab Notebooks/toy_tts/train_logs"
+  save_path = "/content/params"  
+  log_path = "/content/train_logs"
   
-  save_name = "SimpleTransfromerTTS.pt"
+  save_name = "ArthemisTTS.pt"
 
   # Text transformations params
   symbols = [
